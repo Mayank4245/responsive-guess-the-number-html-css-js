@@ -100,9 +100,6 @@ body{
 }
 .p2{
     padding-top: 10px;
-}
-.p3{
-    padding-top: 10px;
     padding-bottom: 20px;
 }
 @media (max-width : 608px) {
@@ -133,12 +130,6 @@ body{
     }
     #input2{
         text-overflow: ellipsis;
-    }
-    .p1{
-        display: none;
-    }
-    .p2{
-        padding-top: 20px;
     }
 }
 @media (max-width : 329px) {
