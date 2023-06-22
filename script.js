@@ -3,8 +3,9 @@ let chance = 0;
 
 function guessTheNumber() {
   let input = parseInt(document.getElementById("input2").value);
-
-  if (input === number) {
+  if (isNaN(input)){
+    document.getElementById("output_comment").textContent = "You enter Nothing pls try again with entering a valid number";
+  }else if (input === number) {
     document.getElementById("output_comment").textContent = "Pls refresh the page for play this game again";
     alert("Congratulations! You entered the right number.");
     document.querySelector(".output").style.backgroundColor = "rgb(51, 247, 51)";

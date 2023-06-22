@@ -12,14 +12,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /* gap: 10%; */
 }
 .output{
     background-color: #fe4242bf;
     padding-top: 30px;
     width: 600px;
     text-align: center;
-    /* margin: auto; */
     height: 170px;
     border-radius: 20px;
     font-family: system-ui;
@@ -27,17 +25,14 @@ body{
     color: black;
 }
 .outer1{
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     width: 500px;
-    /* margin: auto; */
     background-color: rgb(35 109 129);
     height: 445px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    /* gap: 4%; */
     box-shadow: 2px 2px 30px rgb(22 58 66);
     align-items: center;
     justify-content: space-evenly;
@@ -84,9 +79,31 @@ body{
     font-weight: 400;
     box-shadow: 5px 4px 1px white;
 }
+#button:hover{
+    background-color: grey;
+
+}
 #button:active{
     background-color: green;
     box-shadow: -7px -4px 1px white;
+}
+.outer2{
+    background-color: black;
+    width: 100%;
+}
+.outer2>p{
+    color: white;
+    text-align: center;
+}
+.p1{
+    padding-top: 20px;
+}
+.p2{
+    padding-top: 10px;
+}
+.p3{
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 @media (max-width : 608px) {
     .output{
@@ -116,6 +133,12 @@ body{
     }
     #input2{
         text-overflow: ellipsis;
+    }
+    .p1{
+        display: none;
+    }
+    .p2{
+        padding-top: 20px;
     }
 }
 @media (max-width : 329px) {
